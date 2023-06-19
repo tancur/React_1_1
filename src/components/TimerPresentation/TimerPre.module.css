@@ -1,0 +1,32 @@
+.timer {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: crimson;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.inside {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(219, 181, 168);
+  width: 80px;
+  color: rgb(26, 26, 159);
+  font-weight: 600;
+  border-radius: 50%;
+  /* overflow: hidden; */
+}
+.btn {
+  background-color: rgb(219, 181, 168);
+  color: rgb(26, 26, 159);
+  font-weight: 600;
+  border-radius: 50%;
+  width: 80px;
+}
