@@ -19,6 +19,8 @@ import TimerContainerProps from "./components/TimerPresProps/TimerContainerProps
 import TimerPreProps from "./components/TimerPresProps/TimerPreProps";
 
 import WatchContainer from "./components/Watch/WatchContainer";
+
+import TimerControlTC from "./components/TCC/TimerControlTCC";
 function App() {
   const [ms, setMs] = useState("");
 
@@ -68,7 +70,6 @@ function App() {
       <h2>TimerContainer</h2>
       <TimerContainer seconds={4} refresh={100} Render={SecondTimer} />
 
-      <hr />
       <h2>TimerContainerPresentation</h2>
       <TimerContainerPresentation refresh={100} Render={TimerPresentation} />
 
@@ -87,8 +88,11 @@ function App() {
         refresh={100}
         Render={TimerPreProps}
       />
-
+      <hr />
       <WatchContainer />
+      <hr />
+      <h2>TimerControlTC тормозит</h2>
+      <TimerControlTC />
     </div>
   );
 }
